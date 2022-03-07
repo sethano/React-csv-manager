@@ -32,8 +32,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1> React CSV Reader </h1> 
-      <DataTable csv={ csv }/>
+      <h1 className='title' > React CSV Reader </h1> 
       <div className={`dropzone
       ${isDragAccept && 'dropzoneAccept'}
       ${isDragReject && 'dropzoneReject'}`}
@@ -50,6 +49,7 @@ function App() {
         }
         <em>(somente arquivos do tipo .csv)</em>
       </div>
+      {csv? <DataTable csv={ csv }/> : null}
     </div>
   );
 }

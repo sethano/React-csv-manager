@@ -1,0 +1,32 @@
+table {
+  margin: auto;
+  border: solid 2px #6c7ae0;
+  padding: 10px;
+  width: 80%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-style: hidden;
+}
+
+thead {
+  background-color: #6c7ae0;
+  text-align: center;
+  height: 60px;
+}
+
+td {
+  height: 30px;
+}
+
+input {
+  margin: auto;
+  margin-top: 30px;
+}
+
+tr td input {
+  border: none;
+  background-color: rgba(151, 163, 250, 0.1);
+  text-align: center;
+}
